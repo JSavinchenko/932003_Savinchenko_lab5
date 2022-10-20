@@ -38,21 +38,6 @@ closePopUp3.addEventListener('click', function(){
     popUp3.classList.remove('active');
 })
 
-
-// let btnOne = document.querySelector("#open_pop_up1");
-// let btnTwo = document.querySelector("#open_pop_up2");
-// let btnThree = document.querySelector("#open_pop_up3");
-// let popup = document.querySelectorAll(".pop_up_container");
-
-// function togglePopup(index){
-//     popup[index].classList.toggle("popup_opened");
-//   }
-
-//   btnOne.addEventListener( 'click', ()=> togglePopup(0) );
-//   btnTwo.addEventListener( 'click', ()=> togglePopup(1) );
-//   btnThree.addEventListener( 'click', ()=> togglePopup(2) );
-
-
 block1.onmouseover = function (){
     block1.style.background = "#d34949";
 };
